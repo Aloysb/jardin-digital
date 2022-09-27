@@ -1,0 +1,16 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'compost'
+
+# required
+[build]
+_merge = 'deep'
+
+# required
+[markup]
+_merge = 'deep'
+
+# for better seo
+[minify]
+_merge = 'deep'
